@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+body { 
+    background-image: url(https://i.ibb.co/PwM3BSt/background-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    font-family: 'Spectral', serif;
+    text-align: center;
+    color: #EBF1FB;
+}
+
+h1 { 
+    font-family: 'Beth Ellen', cursive;
+    margin-top: 275px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120px;
+}
+
+h1 span {
+    color: #5EEAD4;
+}
+
+p {
+    margin-bottom: 72px;
+    margin-top: 4px;
+}
+
+a {
+    margin-right: 24px;
+    font-size: 24px;
+    color: #EBF1FB;
+}
+
+.btn {
+    text-decoration: none;
+    color: #0B0C0E;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #5EEAD4;
+    font-size: 24px;
+}
+
+a:hover {
+    opacity: .7;
+}
