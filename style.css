@@ -6,15 +6,15 @@
 }
 
 body { 
-    background-image: url(https://i.ibb.co/PwM3BSt/background-image.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(https://i.ibb.co/PwM3BSt/background-image.png) no-repeat center/cover;
     height: 100vh;
 
     font-family: 'Spectral', serif;
     text-align: center;
     color: #EBF1FB;
+
+    display: grid;
+    place-content: center;
 }
 
 h1 { 
@@ -51,4 +51,8 @@ a {
 
 a:hover {
     opacity: .7;
+}
+
+.btn:hover {
+    background: #218a7a;
 }
